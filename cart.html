@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Ecommerce Tee Design">
+        <meta name="author" content="Noam Ureta-Vidal">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <title>RealLife</title>
+    </head>
+    <body>
+        <section id="nav-bar">
+            <header>
+                <nav>
+                    <ul>
+                        <li><a href="index.html" class="title">RealLife</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="cart.html">Cart</a></li>
+                    </ul>
+                </nav>
+            </header>
+        </section>
+        <main>
+            <!--cart items details-->
+            <div class="small-container cart-page">
+                <table>
+                    <!--tr defines a table row-->
+                    <tr>
+                        <!--th defines a table header-->
+                        <th>Product</th>
+                        <th>Quantity</th>
+                        <th>Subtotal</th>
+                    </tr>
+                    <tr>
+                        <!--td defines a table cell-->
+                        <td>
+                            <div class="cart-info">
+                                    <img src="Mock-It-Rue Porter Oversized Mock Neck Tee.png">
+                                <div>
+                                    <p>Red Vegyn</p>
+                                    <small>Price: £30</small>
+                                    <br>
+                                    <a href="">Remove</a>
+                                </div>
+                            </div>
+                        </td>
+                        <td><input type="number" value="1"></td>
+                        <td>£30</td>
+                    </tr>
+                </table>
+            </div>
+            <!--final prices including shipping-->
+            <div class="total-price">
+                <table>
+                    <tr>
+                        <td>Subtotal</td>
+                        <td>£30</td>
+                    </tr>
+                    <tr>
+                        <td>Shipping</td>
+                        <td>£10</td>
+                    </tr>
+                    <tr>
+                        <td>Total</td>
+                        <td>£40</td>
+                    </tr>
+                </table>
+            </div>
+        </main>
+    </body>
+</html>
